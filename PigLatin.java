@@ -2,7 +2,7 @@ public class PigLatin {
     public static String convert(String start) {
         StringBuilder sb = new StringBuilder();
 
-        String prefix = (findFirstVowel(start) != -1) ? ((findFirstVowel(start) == 0) ? "w" : (("quQu".indexOf(start.substring(0,2)) != -1) ? "qu" : start.substring(0, findFirstVowel(start)))) : "";
+        String prefix = (findFirstVowel(start) != -1) ? ((findFirstVowel(start) == 0) ? "w" : (("quQu".contains(start.substring(0,2))) ? "qu" : start.substring(0, findFirstVowel(start)))) : "";
 
         for (int i = 0; i < start.length(); i++) {	
             if (i == findFirstVowel(start)) {
