@@ -1,6 +1,10 @@
 #BlueJ class context
-comment0.params=start
-comment0.target=java.lang.String\ convert(java.lang.String)
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
 comment1.params=start
-comment1.target=int\ findFirstVowel(java.lang.String)
-numComments=2
+comment1.target=java.lang.String\ convert(java.lang.String)
+comment2.params=sStart
+comment2.target=java.lang.String\ translate(java.lang.String)
+comment3.params=start
+comment3.target=int\ findFirstVowel(java.lang.String)
+numComments=4
